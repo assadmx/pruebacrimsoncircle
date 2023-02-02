@@ -1,6 +1,6 @@
 # Backend_Challenge
 
-## Setup the project
+## Challenge 1: Setup the project
 Start the services for the project (this action will re-build the containers)
 
 `docker-compose up -d --build`
@@ -36,7 +36,7 @@ To regenerate the information for the autoloader file:
 `docker-compose exec php-fpm bash -c "composer dump-autoload"`
 
 
-## Databse
+## Database
 
 You can manage the databases from mysql using the next url:
 
@@ -50,7 +50,7 @@ Password: crimsoncircle
 Host: db
 ```
 
-## Leap Year Module
+## Challenge 2: Leap Year Module
 
 The URL for access to the module:
 
@@ -63,7 +63,7 @@ Implement the logic to calculate if the year is a "Leap Year", and fix the bug w
 `http://localhost:8080/is_leap_year`
 
 
-## Blog Site API
+## Challenge 3: Blog Site API
 
 *Create the database for store the information.* 
 
